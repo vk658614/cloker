@@ -151,7 +151,7 @@ return trim($ipaddress_pool[0]);
   function PreventLoad(){
       $check = new CloakerlyChecker();
       $check->SetKey("5EPpFAcKsSuH7hZqK4jqD3vMJuJx0alMji9e8OFLtCOXvIBfQ6k9eikQRB2Rrmz1");
-      $check->SetCampaign("29056");
+      $check->SetCampaign("29091");
       $check->SetStrictness("0");
       $check->SetReferrer(isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : "Direct");
       $check->PassUserAgent(true);
